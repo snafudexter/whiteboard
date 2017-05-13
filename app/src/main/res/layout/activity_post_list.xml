@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    tools:context="com.prabhcheema.whiteboard.PostListActivity">
+
+    <com.prabhcheema.whiteboard.ExpandableHeightGridView
+        android:id="@+id/post_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:numColumns="3"
+        android:stretchMode="columnWidth">
+
+    </com.prabhcheema.whiteboard.ExpandableHeightGridView>
+
+</ScrollView>
